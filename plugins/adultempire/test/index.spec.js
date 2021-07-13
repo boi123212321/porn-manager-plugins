@@ -29,7 +29,7 @@ describe("adultempire", () => {
       expect(result.aliases).to.deep.equal(["Maricella", "FTV Maricella"]);
       expect(
         result.description.startsWith(
-          `"I'm mixed with a little bit of everything," pornstar Avi Love once said.`
+          `"I'm mixed with a little bit of everything," pornstar Avi Love once said. That's true not only of her lineage - which includes Filipino, Creole, French, German and Indian ancestors - but also of the versatile onscreen talents that have seen her come from modest roots all the way to AVN-winning stardom.\n\nLove was born in Carson City, Nevada, just a few hundred miles from the city she would call home when her porn career kicked off.`
         )
       ).to.be.true;
     });

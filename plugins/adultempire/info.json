@@ -1,6 +1,6 @@
 {
   "name": "adultempire",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "authors": ["boi123212321"],
   "description": "Scrape data from adultempire",
   "events": ["movieCreated", "actorCreated"],

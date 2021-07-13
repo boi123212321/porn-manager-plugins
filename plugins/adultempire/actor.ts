@@ -52,9 +52,9 @@ export default async function (ctx: MyContext): Promise<ActorOutput> {
 
     let description;
 
-    const descEl = $("#content .row aside");
+    const descEl = $(".text-md");
     if (descEl) {
-      description = descEl.text().trim();
+      description = descEl.children().remove("div").end().text().trim();
     }
 
     let aliases: string[] = [];
